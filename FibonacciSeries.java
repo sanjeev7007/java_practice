@@ -11,6 +11,7 @@ public class FibonacciSeries {
         System.out.println("Fibonacci Series: ");
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + " ");
+            sc.close();
         }
     }
 }

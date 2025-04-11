@@ -12,6 +12,7 @@ public class PalindromeCheck {
             System.out.println("Palindrome");
         } else {
             System.out.println("Not a Palindrome");
+            sc.close();
         }
         
     }
