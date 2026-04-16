@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashSet;
-
+//sanjeev7007
 public class IsogramChecker {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
