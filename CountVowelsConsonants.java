@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.Scanner;//sanjeev
 public class CountVowelsConsonants {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
