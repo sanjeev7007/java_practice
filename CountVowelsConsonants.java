@@ -4,9 +4,7 @@ public class CountVowelsConsonants {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter a string: ");
             String input = scanner.nextLine().toLowerCase();
-
             int vowels = 0, consonants = 0;
-
             for (int i = 0; i < input.length(); i++) {
                 char ch = input.charAt(i);
                 if (Character.isLetter(ch)) {
@@ -17,7 +15,6 @@ public class CountVowelsConsonants {
                     }
                 }
             }
-
             System.out.println("Vowels: " + vowels);
             System.out.println("Consonants: " + consonants);
         }
