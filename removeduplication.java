@@ -11,16 +11,14 @@ public class removeduplication {
         for (int i=0;i<k;i++){
             nums[i] = sc.nextInt();
         }
-        System.out.print("[" + nums[0]);
-
         for (int i=1;i<k;i++){
                 if(nums[i] != nums[i-1]){
-                    System.out.print(","+nums[i]);
+                    nums[n]=nums[i];
                     n = n+1;
                 }
             }
-        System.out.println("]");
-        System.out.println("k = "+n );
+        System.out.println("n = "+n);
+        System.out.println(Arrays.toString(nums));
         }
 
     }
