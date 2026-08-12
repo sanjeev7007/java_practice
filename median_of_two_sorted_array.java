@@ -34,11 +34,11 @@ public class median_of_two_sorted_array {
             int r = (length/2)-1;
             int i1 = length-2-r;
             int i2 = length-1-r;
-            double median = (mrgarr[i1] + mrgarr[i2]) / 2.0;
+            double median = (mrgarr[i1]+mrgarr[i2] / 2.0);
             System.out.print("median is "+median);
         }
         else{
-            double median = mrgarr [length / 2];
+            double median = length / 2;
             System.out.print("median is "+median);
         }
         
