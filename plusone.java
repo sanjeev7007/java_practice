@@ -11,15 +11,14 @@ public class plusone {
             digits[i]=sc.nextInt();
         }
         int nums=0;
-        for (int digit : digits){
-            nums = nums * 10 + digit;
+        for (int sum : digits){
+            nums = nums * 10 + sum;
         }
         nums = nums+1;
         String str = String.valueOf(nums);
         int [] plusone = new int[str.length()];
         for (int i=0 ;i < str.length();i++){
             plusone[i]=str.charAt(i)-'0';
-
         }
         System.out.println(Arrays.toString(plusone));
         
