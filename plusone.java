@@ -11,8 +11,8 @@ public class plusone {
             digits[i]=sc.nextInt();
         }
         int nums=0;
-        for (int sum : digits){
-            nums = nums * 10 + sum;
+        for (int sums : digits){
+            nums = nums * 10 + sums;
         }
         nums = nums+1;
         String str = String.valueOf(nums);
