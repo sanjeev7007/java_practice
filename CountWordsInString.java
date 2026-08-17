@@ -9,7 +9,7 @@ public class CountWordsInString {
             String[] words = input.trim().split("\\s+");
             int wordCount = words.length;
 
-            System.out.println("Total number of words: " + wordCount);
+            System.out.println("Total numbers of words: " + wordCount);
         }
     }
 }
